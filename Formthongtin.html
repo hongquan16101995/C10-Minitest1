@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+  <style>
+    table {
+      width: 400px;
+    }
+
+    th {
+      color: blue;
+      text-align: left;
+    }
+  </style>
+</head>
+<body>
+<form>
+  <table>
+    <tr>
+      <th colspan="2"><h2>Biểu mẫu đăng ký</h2></th>
+    </tr>
+    <tr>
+      <th>Tên</th>
+      <td><label><input type="text" placeholder="Nguyễn Văn A"></label></td>
+    </tr>
+    <tr>
+      <th>Tuổi</th>
+      <td><label><select>
+        <option value="1">Từ 1 - 16</option>
+        <option value="2">16 - 24</option>
+        <option value="3">24 - 50</option>
+        <option value="4">Trên 50</option>
+      </select></label></td>
+    </tr>
+    <tr>
+      <th>Giới tính</th>
+      <td><label for="Nam"><input type="radio" id="Nam" name="gt" value="Nam">Nam</label>
+        <label for="Nữ"><input type="radio" id="Nữ" name="gt" value="Nữ">Nữ</label></td>
+    </tr>
+    <tr>
+      <th>SĐT</th>
+      <td><label><input type="text" placeholder="09xxxxxxxx"></label></td>
+    </tr>
+    <tr>
+      <th>Email</th>
+      <td><label><input type="email" placeholder="abc@gmail.com"></label></td>
+    </tr>
+    <tr>
+      <th>Địa chỉ</th>
+      <td><label><textarea cols="30" rows="5"></textarea></label></td>
+    </tr>
+    <tr>
+      <th>Account</th>
+      <td><label><input type="text" placeholder="John"></label></td>
+    </tr>
+    <tr>
+      <th>Password</th>
+      <td><label><input type="password" placeholder="8-16 ký tự"></label></td>
+    </tr>
+    <tr>
+      <td></td>
+      <td><input type="submit" value="Gửi">&nbsp;
+      <input type="reset" value="Nhập lại"></td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>
